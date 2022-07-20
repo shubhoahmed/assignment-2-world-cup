@@ -162,7 +162,7 @@ main {
     margin-right: 15px;
 }
 
-/* Blog Part CSS Start  */
+/* Blog Part End  */
 
 /* Tablet Views CSS Start  */
 .tablet-view {
@@ -173,7 +173,7 @@ main {
 }
 
 .view {
-    display: none;
+    visibility: hidden;
     height: 200;
     width: 400;
     background-color: #DD0000;
@@ -233,7 +233,7 @@ main {
 
     text-decoration: none;
     color: #FFFFFF;
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .icons {
@@ -252,6 +252,9 @@ main {
     font-size: 15px;
     color: #FFFFFF;
 }
+
+
+/* Mobile view responsive  start*/
 
 @media only screen and (max-width:688px) {
     main {
@@ -343,5 +346,46 @@ main {
         padding: 25px 0;
         background-color: #161616;
         border-top: 1px solid lightgray;
+    }
+}
+
+/* Mobile view responsive  End*/
+
+@media only screen and (min-width:688px) and (max-width:922px) {
+    .top-banners {
+        background-color: #e12626;
+    }
+
+    .view {
+
+        visibility: visible;
+    }
+
+    .blogs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blogs-features {
+        background-color: #FFFFFF;
+    }
+
+    .features-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 40px;
+
+    }
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+
     }
 }
