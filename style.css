@@ -133,6 +133,21 @@ main {
     height: auto;
 }
 
+.shedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.shedule img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 140px;
+}
+
 .content-details button {
     background-color: #161616;
     color: #FFFFFF;
