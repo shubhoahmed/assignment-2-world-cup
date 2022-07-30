@@ -417,6 +417,14 @@ this is for schedule page end
         flex-direction: column;
         margin-bottom: 50px;
     }
+
+    .content-details p {
+        font-size: 20px;
+    }
+
+    .content-info p {
+        font-size: 20px;
+    }
 }
 
 /* Mobile view responsive  End*/
@@ -514,6 +522,14 @@ Tablet view responsive style
         color: #161616;
         justify-content: center;
         margin-bottom: 50px;
+    }
+
+    .content-details p {
+        font-size: 25px;
+    }
+
+    .content-info p {
+        font-size: 25px;
     }
 }
 
