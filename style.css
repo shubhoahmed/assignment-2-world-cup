@@ -36,17 +36,18 @@ Banner Style Start
     background-color: #FEAFA3;
     padding: 0 70px;
     border-radius: 30px;
+    transition: background-color 5s ease-in-out;
 }
 
 .banner-title {
     font-size: 65px;
     font-weight: 700;
     color: #161616;
-    transition: background-color 5s ease-in-out;
+
 
 }
 
-.banner-title:hover {
+.top-banners:hover {
     background-color: lightblue;
 
 }
